@@ -1,0 +1,353 @@
+.parent{
+    width: 100vw;
+    height: 45vw;
+    position: relative;
+    margin-top: 60PX;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    display: flex;
+    color: white;
+    align-items: center;
+    backdrop-filter: blur(30px);
+    background-color: rgba(33, 33, 33, 0.6);
+    position: fixed;
+    width: 95%;
+    z-index: 999;
+    height: 60px;
+    top: 0;
+    flex-wrap: nowrap;
+    left: 35px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.hero-bg{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+.nav1{
+    width: 15%;
+    padding: 5px 20px;
+    background-color: rgba(23,23,23,0.0);
+}
+.nav2{
+    display: flex;
+    width: 55%;
+    background-color: rgba(23,23,23,0.0);
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+}
+.nav3 {
+    display: flex;
+    width: 30%;
+    background-color: rgba(23, 23, 23, 0.0);
+    align-items: center;
+    gap: 10px;
+    font-family: Poppins;
+    padding: 10px; /* try this */
+  }
+  
+.btn{
+    background-color: rgba(23,23,23,0.0);
+    /* border: 1px solid white; */
+    padding: 10px 12px;
+    border-radius: 10px;
+    font-weight: 400;
+    font-family: Poppins;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    
+}
+.divider{
+    background-color: white;
+    width: 2px;
+    height: 26px;
+}
+#pv-navigation-bar .ODY5qo {
+    font-size: 16px;
+    letter-spacing: .04em;
+}
+
+.special{
+    display: flex;
+}
+.search{
+    border-radius: 40px;
+    padding: 10px 10px;
+    background-color: rgba(23,23,23,0);
+
+}
+.search:hover{
+    background-color: white;
+    color: black;
+}
+.lang{
+    display: flex;
+    padding: 10px 15px;
+    border-radius: 10px;
+    gap: 10px;
+    background-color: rgba(23,23,23,0.0);
+}
+
+.lang:hover {
+    background-color:white;
+
+    color: black;
+
+}
+
+.btn1{
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    border-radius: 40px;
+    background-color: rgba(23,23,23,0.0);
+}
+
+.btn1:hover .elli{
+    background-color: white;
+    color: black;
+}
+
+.btn1:hover{
+    background-color: white;
+}
+.lang:hover .ellipsis {
+    background-color:white;
+
+    color: black;
+}
+
+.blue{
+    /* border: 1px solid white; */
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    padding: 12px 16px ;  
+    background-color: rgb(26, 152, 255);
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.blue:hover{
+    background-color: rgb(38, 157, 255);
+    box-shadow: rgba(38, 157, 255, 0.601) 0px 0px 8px 0px;
+}
+
+.profile{
+    position: relative;
+    padding: 5px 8px;
+    /* border: 1px solid white; */
+    border-radius: 40px;
+    left: 5px;
+    /* background-color: grey; */
+    background-color: rgba(23,23,23,0.0);
+}
+
+.svgprofile{
+    position: relative;
+    left: 1px;
+    top: 2px;
+    background-color: rgba(23,23,23,0.0);
+}
+
+.h{
+    text-decoration: none;
+    background-color: rgba(23,23,23,0.0);
+}
+
+.searchdiv{
+    background-color: rgba(23,23,23,0.0);
+}
+
+.elli{
+    background-color: rgba(23,23,23,0.0);
+}
+
+.ellipsis{
+    background-color: rgba(23,23,23,0.0);
+}
+
+.content{
+   display: flex;
+   margin-right: 220px;
+   z-index: 10;
+   position: absolute;
+   padding: 70px 0px;
+   width: 100%;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    color: white;
+    padding: 0 40px;
+}
+.box1-2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    color: white;
+    background-color: transparent;
+    z-index: 1;
+    padding: 0 40px;
+}
+.box2{
+    width: 50%;
+    
+}
+.box2-2{
+    width: 60%;
+    
+}
+
+.image-container{
+    top: 0;
+    left: 0;
+    width: 100vw;
+    position: absolute;
+}
+
+.intro{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 47px;
+    padding: 20px 0;
+}
+.info{
+    font-family: Poppins;
+    font-size: 20px;
+    padding: 0 0 25px 0;
+}
+.info2{
+    font-family: Poppins;
+    font-size: 20px;
+    padding: 0 0 25px 0;
+}
+.sign{
+    background-color: aliceblue;
+    color: black;
+    width: 24%;
+    padding: 15px 10px;
+    font-family: Poppins;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.image-container{
+    top: 0;
+    left: 0;
+    position: absolute;
+    object-fit: contain;
+}
+
+.image-container2{
+    height: auto;
+    display: block;
+}
+.parent2{
+    position: relative;
+    height: 50vw;
+    /* height: 518px; */
+}
+
+.content2{
+    display: flex;
+    /* flex-direction: column; */
+}
+.intro2{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 47px;
+    padding: 20px 0;
+}
+.rent{
+    color:black;
+    background-color: white;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Poppins;
+    width:20%;
+    padding: 10px 0 10px 15px;
+    border-radius: 10px;
+}
+
+.parent3{
+    display: flex;
+    height: 70vh;
+    padding: 72px;
+    font-family: Poppins;
+}
+
+.box1-3{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    color: white;
+    z-index: 1;
+    width: 50%;
+}
+
+
+.square1{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.square2{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.ads{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.ads:hover{
+    transform: scale(1.01);
+}
+
+.box2-3{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+}
+.imgs{
+    width: 100%;
+    height: 100%;
+}
+
+.flex1{
+    display: flex;
+    height: 30%;
+    gap: 1%;
+}
+.flex2{
+    display: flex;
+    height: 30%;
+    gap: 1%;
+}
+.flex3{
+    display: flex;
+    height: 30%;
+    gap: 1%;
+}
