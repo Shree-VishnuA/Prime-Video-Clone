@@ -2,7 +2,7 @@
     width: 100vw;
     height: 45vw;
     position: relative;
-    margin-top: 60PX;
+    margin-top: 74PX;
 }
 
 body{
@@ -24,10 +24,10 @@ body{
     position: fixed;
     width: 95%;
     z-index: 999;
-    height: 10vh;
+    height: 74PX;
     top: 0;
     flex-wrap: nowrap;
-    left: 35px;
+    left: 3vw;
     border-radius: 0px 0px 15px 15px;
 }
 
@@ -49,12 +49,20 @@ body{
     justify-content: flex-start;
     gap: 4%;
 }
+
+.nav2m{
+    display: none;
+    font-family: Poppins;
+    display: flex;
+    align-items: center;
+    font-size:2vw ;
+}
 .nav3 {
     display: flex;
     width: 30%;
     background-color: rgba(23, 23, 23, 0.0);
     align-items: center;
-    gap: 4%;
+    gap: 2%;
     font-family: Poppins;
     padding: 10px; /* try this */
   }
@@ -75,7 +83,7 @@ body{
 .divider{
     background-color: white;
     width: 2px;
-    height: 6vh;
+    height: 2vw;
 }
 .special{
     display: flex;
@@ -341,4 +349,31 @@ body{
     display: flex;
     height: 30%;
     gap: 1%;
+}
+
+@media only screen and (width<1000px) {
+    .nav2{
+        display: none;
+    }
+    .nav{
+        width: 100vw;
+        position: relative;
+        left: 0; 
+    }
+    .nav1{
+        width: 20%;
+    }
+    .nav2m{
+        width:30% ;
+        padding: 0 2vw;
+    }
+    .nav3{
+        width: 50%;
+    }
+    
+}
+@media only screen and (width>700){
+    .nav2m{
+        display: none;
+    }
 }
