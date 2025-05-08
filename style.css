@@ -90,7 +90,7 @@ body{
 }
 .search{
     border-radius: 40px;
-    padding: 10px 10px;
+    padding: 0.732vw 0.732vw;
     background-color: rgba(23,23,23,0);
 
 }
@@ -100,7 +100,7 @@ body{
 }
 .lang{
     display: flex;
-    padding: 10px 15px;
+    padding: 0.732vw 1.098vw;
     border-radius: 10px;
     background-color: rgba(23,23,23,0.0);
 }
@@ -115,7 +115,7 @@ body{
 .btn1{
     display: flex;
     align-items: center;
-    padding: 10px 10px;
+    padding:0.732vw 0.732vw;
     border-radius: 40px;
     background-color: rgba(23,23,23,0.0);
 }
@@ -138,11 +138,11 @@ body{
     border-radius: 8px;
     border: none;
     outline: none;
-    padding: 12px 16px ;  
+    padding: 0.625vw 0.833vw ;  
     background-color: rgb(26, 152, 255);
     color: white;
     font-weight: 700;
-    font-size: 1.5vw;
+    font-size: 15px;
 }
 
 .blue:hover{
@@ -152,7 +152,7 @@ body{
 
 .profile{
     position: relative;
-    padding: 5px 8px;
+    padding: 0.366vw 2vw 0.363vw 0;
     border-radius: 40px;
     left: 5px;
     background-color: rgba(23,23,23,0.0);
@@ -359,16 +359,27 @@ body{
         width: 100vw;
         position: relative;
         left: 0; 
+        border-radius: 0 0 0 0 ;
     }
     .nav1{
         width: 20%;
+        padding: 0 1vw;
     }
     .nav2m{
-        width:30% ;
+        width:10% ;
         padding: 0 2vw;
+        font-size: 18px;
     }
     .nav3{
-        width: 50%;
+        width: 70%;
+        gap: 1%;
+    }
+
+    .profile{
+        padding: 0.366vw 2vw 0.363vw 0
+    }
+    .content{
+        padding: 0 0;
     }
     
 }
